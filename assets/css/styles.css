@@ -24,6 +24,26 @@ body {
 }
 
 .last{
+/*  transform: skew(30deg,30deg); */
 	padding-bottom: 2rem;
 	border-bottom: 2px solid rgb(220, 200, 100);
+	animation-name: growAndGlow;
+	animation-duration: 3s;
+}
+
+@keyframes growAndGlow {
+	from {
+		color: whitesmoke;
+	}
+
+	50% {
+		color: dodgerblue;
+		transform: skewX(30deg);
+	}
+
+	end {
+		transform: scale(3);
+		color: red;
+	}
+	
 }
