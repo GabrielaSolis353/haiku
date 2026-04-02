@@ -27,6 +27,9 @@ body {
 /*  transform: skew(30deg,30deg); */
 	padding-bottom: 2rem;
 	border-bottom: 2px solid rgb(220, 200, 100);
+}
+
+.last:hover {
 	animation-name: growAndGlow;
 	animation-duration: 3s;
 }
