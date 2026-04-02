@@ -21,7 +21,14 @@ body {
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 2rem;
 	margin: 10% 4rem 0 4rem;
+
 }
+
+div {
+	transition-property: transform;
+	transition-duration: 3s;
+}
+
 
 .last{
 /*  transform: skew(30deg,30deg); */
@@ -29,11 +36,12 @@ body {
 	border-bottom: 2px solid rgb(220, 200, 100);
 }
 
+/*
 .last:hover {
 	animation-name: growAndGlow;
-	animation-duration: 3s;
+	animation-duration: 7s;
 }
-
+*/
 @keyframes growAndGlow {
 	from {
 		color: whitesmoke;
