@@ -41,7 +41,7 @@ body {
 		transform: skewX(30deg);
 	}
 
-	end {
+	to {
 		transform: scale(3);
 		color: red;
 	}
